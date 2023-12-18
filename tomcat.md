@@ -214,7 +214,8 @@ rajshakya@thunder:/opt$ sudo tail -f /opt/tomcat/logs/catalina.out
 http://localhost:8080/
 ```
 **Tomcat home screen**
-![Uploading image.png…]()
+![Uploading Screenshot from 2023-12-16 13-32-57.png…]()
+
 
 
 
