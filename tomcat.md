@@ -3,7 +3,7 @@
 
 [2.Install JDK](#Install-JDK)
 
-[3.Download and Install Tomcat 9](#Download-and-Install-Tomcat-9)
+[3.Install Tomcat 9](#Install-Tomcat-9)
 
 
 ## Apache Tomcat 
@@ -58,7 +58,7 @@ rajshakya@thunder:/$
 sudo groupadd tomcat
 sudo useradd -s /bin/false -g tomcat -d /opt/tomcat tomcat
 ```
-## Step 3 — Download and Install Tomcat 9
+## Step 3 — Install Tomcat 9
 
 * Now we need to download and install Tomcat 9. You need to download the Tomcat 9 archive from its official download website or mirrors. Download and Install Tomcat 9.0.21 archive file using the following commands. You can also visit the official download page to download the latest available version.
 
