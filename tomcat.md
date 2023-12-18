@@ -49,8 +49,8 @@ rajshakya@thunder:/$
 
 
 *If java is installed, the output should look similar to above depending upon what is the latest version of java at that time.*
-
-## Step 2 — Creating a Tomcat user and group
+## Install Tomcat 9
+## Step 1 — Creating a Tomcat user and group
 
 * We should not run tomcat under the root user for security reasons. Let’s create a group tomcat and add a user tomcat to it. Additionally, we are going to install tomcat under /opt/tomcat directory which will be tomcat user home directory:
 
@@ -58,7 +58,7 @@ rajshakya@thunder:/$
 sudo groupadd tomcat
 sudo useradd -s /bin/false -g tomcat -d /opt/tomcat tomcat
 ```
-## Step 3 — Install Tomcat 9
+## Step 2 — Install Tomcat 9
 
 * Now we need to download and install Tomcat 9. You need to download the Tomcat 9 archive from its official download website or mirrors. Download and Install Tomcat 9.0.21 archive file using the following commands. You can also visit the official download page to download the latest available version.
 
@@ -127,7 +127,7 @@ rajshakya@thunder:/opt$ sudo mv apache-tomcat-9.0.21 /opt/tomcat
 ```
 
  
-## Step 4 — Change Permission and Ownership of the Tomcat home directory
+## Step 3 — Change Permission and Ownership of the Tomcat home directory
 
 * Next, we will modify ownership and permission of /opt/tomcat directory. We will also give executed permission to opt/tomcat/bin/ directory.
 
@@ -140,7 +140,7 @@ rajshakya@thunder:/$ sudo chown -R tomcat: /opt/tomcat/bin/
 rajshakya@thunder:/$ 
 ```
 
-## Step 5 — Creating a SystemD Service File for Tomcat
+## Step 4 — Creating a SystemD Service File for Tomcat
 
 * To install Tomcat as system service we will create a file called tomcat.service in the /etc/systemd/system directory.
 
@@ -262,7 +262,7 @@ Dec 16 10:21:54 thunder systemd[1]: Starting Uncomplicated firewall...
 Dec 16 10:21:54 thunder systemd[1]: Finished Uncomplicated firewall.
 ```
 
-## Step 6 — Enable and Secure Tomcat Web Application and Virtual Host Manager
+## Step 5 — Enable and Secure Tomcat Web Application and Virtual Host Manager
 
 * Tomcat has a Web Application Manager and Virtual Host Manager app that come preinstalled. In order to use these, we have to first secure them with authentication and authorization. This is done via the tomcat-users.xml file. Open and edit tomcat-users.xml:
 
@@ -279,7 +279,7 @@ sudo vim /opt/tomcat/conf/tomcat-users.xml
 
 ![Alt text](<Screenshot from 2023-12-16 14-43-47.png>)
 
-## Step 7 — Configure Tomcat Web Application Manager
+## Step 6 — Configure Tomcat Web Application Manager
 
 * The Tomcat web application manager is configured to allow access only from the localhost. To allow remote access we have to edit the /opt/tomcat/webapps/manager/META-INF/context.xml
 
