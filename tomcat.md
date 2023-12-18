@@ -1,5 +1,5 @@
 ## Table of contents
-[1.Apache Tomcat](#ApacheTomcat)
+[1.Apache Tomcat](#Apache-Tomcat)
 
 [2.Install JDK(Java Development Kit)](#InstallJDK(JavaDevelopmentKit))
 
