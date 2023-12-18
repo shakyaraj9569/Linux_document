@@ -1,9 +1,9 @@
 ## Table of contents
 [1.Apache Tomcat](#Apache-Tomcat)
 
-[2.Install JDK(Java Development Kit)](#InstallJDK(JavaDevelopmentKit))
+[2.Install JDK](#Install-JDK)
 
-[3.Download and Install Tomcat 9](#DownloadandInstallTomcat9)
+[3.Download and Install Tomcat 9](#Download-and-Install-Tomcat9)
 
 
 ## Apache Tomcat 
@@ -15,7 +15,7 @@
 
 * It is slower as comparing to Apace web server.
 
-## Install JDK(Java Development Kit)
+## Install JDK
 ## Step 1 — Installing JDK
 
 **Tomcat 9 requires Java 8 or later versions to work. You can check and verify that Java is installed with the following command.**
