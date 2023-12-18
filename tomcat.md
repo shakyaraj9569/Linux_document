@@ -320,10 +320,7 @@ sudo systemctl restart tomcat
 http://localhost:8080/manager/html
 ```
 * Enter the user and password as configured in Step 5.
-![image](https://github.com/shakyaraj9569/Tomcat_document/assets/118537904/988ba772-e6ff-4000-9cb8-47e953ab0359
-
-
-
+![image](https://github.com/shakyaraj9569/Tomcat_document/assets/118537904/fa42b04a-a5a2-4522-9926-0d75c2ccb617)
 
 ## Step 8 — Configure Tomcat Virtual Host Manager
 
@@ -346,7 +343,8 @@ sudo vim /opt/tomcat/webapps/host-manager/META-INF/context.xml
         allow="127\.\d+\.\d+\.\d+|::1|0:0:0:0:0:0:0:1" />
 ```
 
-![image](https://github.com/shakyaraj9569/Tomcat_document/assets/118537904/25b11aa9-7696-4f2d-870e-8cbcae07f443)
+![image](https://github.com/shakyaraj9569/Tomcat_document/assets/118537904/8deafb08-acea-4145-a7eb-c5756c987f46)
+
 
 
 * Save and exit.
@@ -360,5 +358,5 @@ After Tomcat is restarted we can access the Virtual Host Manager console at the 
 ```
 http://localhost:8080/host-manager/html
 ```
-![image](https://github.com/shakyaraj9569/Tomcat_document/assets/118537904/3434e2f4-e514-46cd-a5c7-30c1360b8d64)
+![image](https://github.com/shakyaraj9569/Tomcat_document/assets/118537904/3ac63190-fddf-4ddf-9da5-fa1699f95e5c)
 
