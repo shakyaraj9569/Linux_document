@@ -281,7 +281,8 @@ sudo vim /opt/tomcat/conf/tomcat-users.xml
 <role rolename="admin-gui"/><role rolename="manager-gui"/><user username="admin" password="password" roles="admin-gui,manager-gui"/>
 ```
 
-![Alt text](<Screenshot from 2023-12-16 14-43-47.png>)
+![image](https://github.com/shakyaraj9569/Tomcat_document/assets/118537904/906424b3-e4d8-47a0-9169-346d36f7c136)
+
 
 ## Step 6 — Configure Tomcat Web Application Manager
 
