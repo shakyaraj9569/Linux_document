@@ -1,7 +1,7 @@
 ## Table of contents
-[1.Apache Tomcat](#Apache-Tomcat)
+[1.Apache Tomcat](#ApacheTomcat)
 
-[2.Install JDK(Java Development Kit)](#Install-JDK(Java-Development-Kit))
+[2.Install JDK(Java Development Kit)](#InstallJDK(JavaDevelopmentKit))
 
 [3.Download and Install Tomcat 9](#DownloadandInstallTomcat9)
 
