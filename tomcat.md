@@ -322,7 +322,7 @@ http://localhost:8080/manager/html
 * Enter the user and password as configured in Step 5.
 ![image](https://github.com/shakyaraj9569/Tomcat_document/assets/118537904/fa42b04a-a5a2-4522-9926-0d75c2ccb617)
 
-## Step 8 — Configure Tomcat Virtual Host Manager
+## Step 7 — Configure Tomcat Virtual Host Manager
 
 * The Tomcat virtual host manager is configured to allow access only from the localhost. To allow remote access we have to edit the
 
