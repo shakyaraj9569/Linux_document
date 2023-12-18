@@ -3,7 +3,7 @@
 
 [2.Install JDK](#Install-JDK)
 
-[3.Download and Install Tomcat 9](#Download-and-Install-Tomcat9)
+[3.Download and Install Tomcat 9](#Download-and-Install-Tomcat-9)
 
 
 ## Apache Tomcat 
