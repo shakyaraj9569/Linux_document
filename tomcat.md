@@ -302,7 +302,8 @@ sudo vim /opt/tomcat/webapps/manager/META-INF/context.xml
         allow="127\.\d+\.\d+\.\d+|::1|0:0:0:0:0:0:0:1" />
 ```
 
-![Alt text](<Screenshot from 2023-12-16 14-47-30.png>)
+![image](https://github.com/shakyaraj9569/Tomcat_document/assets/118537904/c7bb639e-c4b7-4420-aa17-2480b0381892)
+
 
 
 * Save and exit.
@@ -318,8 +319,9 @@ sudo systemctl restart tomcat
 ```
 http://localhost:8080/manager/html
 ```
-* Enter the user and password as configured in Step 6.
-![Alt text](<Screenshot from 2023-12-16 12-28-56.png>)
+* Enter the user and password as configured in Step 5.
+![image](https://github.com/shakyaraj9569/Tomcat_document/assets/118537904/988ba772-e6ff-4000-9cb8-47e953ab0359
+
 
 
 
@@ -334,7 +336,8 @@ http://localhost:8080/manager/html
 * Open the context.xml file
 ```
 sudo vim /opt/tomcat/webapps/host-manager/META-INF/context.xml
-```
+```![Alt text](<Screenshot from 2023-12-16 15-15-51.png>)
+
 
 * Comment the lines as shown below:
 
@@ -343,7 +346,8 @@ sudo vim /opt/tomcat/webapps/host-manager/META-INF/context.xml
         allow="127\.\d+\.\d+\.\d+|::1|0:0:0:0:0:0:0:1" />
 ```
 
-![Alt text](<Screenshot from 2023-12-16 14-57-03.png>)
+![image](https://github.com/shakyaraj9569/Tomcat_document/assets/118537904/25b11aa9-7696-4f2d-870e-8cbcae07f443)
+
 
 * Save and exit.
 
@@ -356,5 +360,5 @@ After Tomcat is restarted we can access the Virtual Host Manager console at the 
 ```
 http://localhost:8080/host-manager/html
 ```
-![Alt text](<Screenshot from 2023-12-16 15-15-51.png>)
+![image](https://github.com/shakyaraj9569/Tomcat_document/assets/118537904/3434e2f4-e514-46cd-a5c7-30c1360b8d64)
 
