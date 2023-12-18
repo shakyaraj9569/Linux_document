@@ -341,6 +341,9 @@ sudo vim /opt/tomcat/webapps/host-manager/META-INF/context.xml
         allow="127\.\d+\.\d+\.\d+|::1|0:0:0:0:0:0:0:1" />      
 ```
 
+![image](https://github.com/shakyaraj9569/Tomcat_document/assets/118537904/5d37324b-6c04-4032-8443-114386cf625b)
+
+
 * Save and exit.
 
 * Restart tomcat service for changes to take effect.
