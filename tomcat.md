@@ -333,23 +333,24 @@ http://localhost:8080/manager/html
 * Open the context.xml file
 ```
 sudo vim /opt/tomcat/webapps/host-manager/META-INF/context.xml
-```![Alt text](<Screenshot from 2023-12-16 15-15-51.png>)
-
-
+```
 * Comment the lines as shown below:
+
 ```
  <Valve className="org.apache.catalina.valves.RemoteAddrValve"
-        allow="127\.\d+\.\d+\.\d+|::1|0:0:0:0:0:0:0:1" />       
+        allow="127\.\d+\.\d+\.\d+|::1|0:0:0:0:0:0:0:1" />      
 ```
-
 
 * Save and exit.
 
 * Restart tomcat service for changes to take effect.
+
 ```
 sudo systemctl restart tomcat
 ```
+
 After Tomcat is restarted we can access the Virtual Host Manager console at the following link.
+
 
 ```
 http://localhost:8080/host-manager/html
